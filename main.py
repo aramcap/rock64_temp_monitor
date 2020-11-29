@@ -8,7 +8,7 @@ temp_alarm=70
  
 def notify(content):
    sender = 'sender@mail.com'
-   sender_pass = ‘pass’
+   sender_pass = 'pass'
    recipient = 'recept@mail.com'
    msg = EmailMessage()
    msg['Subject'] = 'Alert temp NAS'
